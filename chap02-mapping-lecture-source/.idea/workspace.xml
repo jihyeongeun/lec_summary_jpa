@@ -1,6 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="519a13f6-c2fd-4aa8-9261-1828ff6d91f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/primarykey/subsection01/identity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/primarykey/subsection01/identity/PrimaryKeyMappingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/primarykey/subsection02/table/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/primarykey/subsection02/table/SequenceTableMappingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section04/enumtype/EnumTypeMappingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section04/enumtype/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section04/enumtype/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section05/compositekey/subsection01/embedded/EmbeddedKeyTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section05/compositekey/subsection01/embedded/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section05/compositekey/subsection01/embedded/MemberPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section05/compositekey/subsection02/idclass/IdClassTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section05/compositekey/subsection02/idclass/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section05/compositekey/subsection02/idclass/MemberPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section01/manytooone/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section01/manytooone/ManyToOneAssociationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section01/manytooone/MenuAndCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section02/onetomany/CategoryAndMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section02/onetomany/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section02/onetomany/OneToManyAssociationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/bidirection/BiDirectionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/bidirection/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/bidirection/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-association-mapping-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/dataSources/ad352c8a-fae2-48f1-a844-10b43d134635.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/dataSources/ad352c8a-fae2-48f1-a844-10b43d134635/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/dataSources/ad352c8a-fae2-48f1-a844-10b43d134635/storage_v2/_src_/schema/menudb.HUbDvw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/src/test/java/com/ohgiraffers/section01/simple/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/src/test/java/com/ohgiraffers/section01/simple/SimpleJPQLTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap01-persistence-context-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-persistence-context-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75136063-1cc3-4973-8fb4-2291a1dead3c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75136063-1cc3-4973-8fb4-2291a1dead3c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chap02-mapping-lecture-source" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ct3z87xsUr5Yb4A7MMi4oGz7YV" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ColumnMappingTests.executor": "Run",
+    "Gradle.EmbeddedKeyTests.executor": "Run",
+    "Gradle.EmbeddedKeyTests.임베디드_아이디를_사용한_복합키_테이블_매핑_테스트.executor": "Run",
+    "Gradle.EntityMappingTests.executor": "Run",
+    "Gradle.EnumTypeMappingType.executor": "Run",
+    "Gradle.IdClassTests.executor": "Run",
+    "Gradle.IdClassTests.아이디_클래스_사용한_복합기_테이블_매핑_테스트.executor": "Run",
+    "Gradle.PrimaryKeyMappingTests.executor": "Run",
+    "Gradle.PrimaryKeyMappingTests.식별자_매핑_테스트.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/08_jpa/chap03-association-mapping-lecture-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ohgiraffers.section05.compositekey.subsection02.idclass" />
+      <recent name="com.ohgiraffers.section05.compositekey.subsection01.embedded" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\08_jpa\chap02-mapping-lecture-source\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ohgiraffers.section03.primarykey.subsection02.table" />
+      <recent name="com.ohgiraffers.section03.primarykey.subsection01.identity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.PrimaryKeyMappingTests.식별자_매핑_테스트">
+    <configuration name="EmbeddedKeyTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section05.compositekey.subsection01.embedded.EmbeddedKeyTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmbeddedKeyTests.임베디드_아이디를_사용한_복합키_테이블_매핑_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section05.compositekey.subsection01.embedded.EmbeddedKeyTests.임베디드_아이디를_사용한_복합키_테이블_매핑_테스트&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IdClassTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section05.compositekey.subsection02.idclass.IdClassTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IdClassTests.아이디_클래스_사용한_복합기_테이블_매핑_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section05.compositekey.subsection02.idclass.IdClassTests.아이디_클래스_사용한_복합기_테이블_매핑_테스트&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PrimaryKeyMappingTests.식별자_매핑_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section03.primarykey.subsection01.identity.PrimaryKeyMappingTests.식별자_매핑_테스트&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PrimaryKeyMappingTests.식별자_매핑_테스트" />
+        <item itemvalue="Gradle.IdClassTests.아이디_클래스_사용한_복합기_테이블_매핑_테스트" />
+        <item itemvalue="Gradle.EmbeddedKeyTests.임베디드_아이디를_사용한_복합키_테이블_매핑_테스트" />
+        <item itemvalue="Gradle.IdClassTests" />
+        <item itemvalue="Gradle.EmbeddedKeyTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="519a13f6-c2fd-4aa8-9261-1828ff6d91f8" name="Changes" comment="" />
+      <created>1708917309222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708917309222</updated>
+      <workItem from="1708917310293" duration="16894000" />
+      <workItem from="1709018121014" duration="561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
