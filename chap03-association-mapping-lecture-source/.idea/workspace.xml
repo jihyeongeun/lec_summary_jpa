@@ -1,84 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="524f524d-7b01-49d3-bb1f-f5f16f767397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection01/identity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection01/identity/PrimaryKeyMappingTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection02/table/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection02/table/SequenceTableMappingTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section04/enumtype/EnumTypeMappingType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section04/enumtype/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section04/enumtype/RoleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/compositekey/subsection01/embedded/EmbeddedKeyTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/compositekey/subsection01/embedded/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/compositekey/subsection01/embedded/MemberPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/compositekey/subsection02/idclass/IdClassTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/compositekey/subsection02/idclass/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/compositekey/subsection02/idclass/MemberPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section01/manytooone/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section01/manytooone/ManyToOneAssociationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section01/manytooone/MenuAndCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section02/onetomany/CategoryAndMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section02/onetomany/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section02/onetomany/OneToManyAssociationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/bidirection/BiDirectionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/bidirection/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/bidirection/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/dataSources/ad352c8a-fae2-48f1-a844-10b43d134635.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/dataSources/ad352c8a-fae2-48f1-a844-10b43d134635/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/dataSources/ad352c8a-fae2-48f1-a844-10b43d134635/storage_v2/_src_/schema/menudb.HUbDvw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/src/test/java/com/ohgiraffers/section01/simple/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/src/test/java/com/ohgiraffers/section01/simple/SimpleJPQLTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap04-jpql-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap01-persistence-context-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-persistence-context-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/dataSources/75136063-1cc3-4973-8fb4-2291a1dead3c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/dataSources/75136063-1cc3-4973-8fb4-2291a1dead3c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chap03-association-mapping-lecture-source" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chap03-association-mapping-lecture-source" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cwNSlul8V9VxSDCXRLAJ8pvrfZ" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.BiDirectionTests.양방향_연관관계_매핑_조회_테스트.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/08_jpa/chap04-jpql-lecture-source",
+    "last_opened_file_path": "C:/workspace/08_jpa/chap03-association-mapping-lecture-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="BiDirectionTests.양방향_연관관계_매핑_조회_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section03.bidirection.BiDirectionTests.양방향_연관관계_매핑_조회_테스트&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BiDirectionTests.양방향_연관관계_매핑_조회_테스트" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,6 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709018682836</updated>
       <workItem from="1709018683856" duration="84000" />
+      <workItem from="1709018955353" duration="3182000" />
+      <workItem from="1709027099730" duration="662000" />
     </task>
     <servers />
   </component>
