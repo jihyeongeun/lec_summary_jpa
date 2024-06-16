@@ -95,7 +95,7 @@ public class MenuController {
     @GetMapping("/regist")
     public void registPage(){}
 
-    /* 설명. /menu/regist.html이 열리자마자 js 코드를 통해 /menu/category 비동기 요쳥이 오게 된다. */
+    /* 설명. /menu/regist.html이 열리자마자 js 코드를 통해 /menu/category 비동기 요청이 오게 된다. */
     @GetMapping(value = "/category", produces = "application/json; charset=UTF-8")
 
     /* 설명. 메소드에 @ResponseBody가 붙은 메소드의 반환형은 ViewResolver가 해석하지 않는다. */
